@@ -1,0 +1,242 @@
+@font-face {
+    font-family: 'Franklin Gothic';
+    src: url('../FranklinGothic-Medium.woff2') format('woff2'),
+        url('../FranklinGothic-Medium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+
+body {
+    font-family: Arial, sans-serif;
+   
+}
+nav {
+    width: 100%;
+    height: 60px;
+    background: #344051;
+    
+   
+}
+
+.logo {
+    color: #fff;
+    font-size: 22px;
+    line-height: 60px;
+    float: left;
+    font-family:  'Franklin Gothic', sans-serif;
+}
+
+.menu {
+    float: left; 
+}
+   
+    
+    
+   
+
+
+.menu li {
+    float: left ;
+    line-height: 60px;
+    color: #f4f4f5;
+    margin-right: 40px;
+    font-size: 14px;
+    text-transform: uppercase;
+     font-family:  'Franklin Gothic', sans-serif;
+    
+  
+}
+
+
+.main {
+    width: 100%;
+    height: calc(100% - 60px);
+    background: url(../img/boy.png) 59% 50%  no-repeat ,url(../img/Brackets.lnk.jpg) right/cover no-repeat;
+}
+
+.title__container{  
+    float: left;
+    margin: 432px 0px 0px 404px;
+    color: #f4f4f5;
+    text-align: center;
+    
+    
+}
+
+.title__container h1 {
+    font-size: 60px;
+    font-weight: bold;
+}
+.title__container h4 {
+    margin-top: 40px;
+    font-size: 22px;
+}
+
+.title__container input {
+    height: 40px;
+    text-align: center;
+    border: 2px solid #f4f4f5;
+    background: none;
+    border-radius: 5px;
+    color: #f4f4f5;
+    font-size: 13px;
+    padding: 0px 16px;
+    margin: 50px 14px 0px 14px;
+}
+
+.heading {
+     font-size: 35px;
+     margin-top: 108px;
+     text-align: center;
+     
+}
+
+.line0 {
+      text-align: center;
+    margin-top: 31px;
+    
+}
+.iam { 
+ 
+    width: 202px;
+    height: 202px;
+    border: 0.3px solid #ddb239;
+    border-radius: 50%;
+   overflow: hidden;
+   text-align: center;
+    display: block;
+    margin: 0 auto;
+    margin-top: 59px;
+   object-position: left 60px;
+    font-size: 200px;
+    background-size: contain;
+       
+}
+     
+     
+
+.text {
+    text-align: center;
+   margin-top: 22px;
+    line-height: 15px;
+    }
+
+.text1 {
+   margin-top: 40px;
+    text-align: center;
+    
+}
+    
+
+.block1 input  {
+    height: 34px;
+    width: 157px;
+    text-align: center;
+    font-size: 17px;
+    border-radius: 6px;
+    padding: 0px 16px;
+    background: none;
+    border: 3px solid #6f707e;
+    color: #6f707e;
+    display: block;
+    margin: 36px auto;
+    margin-top: 36px;
+}
+
+.img1  {
+   background-image: url(../img/%D0%BA%D0%B0%D1%80%D1%82%D0%B8%D0%BD%D0%BA%D0%B0%20%D1%84%D0%BE%D0%BD%D0%B0.png) no-repeat ;
+    width: 100%;
+    float: left;
+    text-align: center;
+    position: relative;
+}   
+   
+ .sweg {
+     position: absolute;
+     font-size: 28px;
+     top: 0px;
+     text-align: center;
+     display: block;
+     margin-left: 873px;
+     margin-top: 107px;
+    
+}
+
+
+.img2 {
+    margin-top: 31px;
+}
+
+.img3 {
+    position: absolute;
+    top: 0px;
+    float: left;
+    margin-top: 276px;
+    margin-left: 430px;
+  
+}
+
+.web-diz {
+    color: #e97700;
+    margin-top: 36px;
+    font-size: 19px;
+    font-family: 'Bahnschrift', sans-serif;
+}
+
+.text2 {
+    margin-top: 16px;
+}
+
+.img4 {
+    position: absolute;
+    top: 0px;
+     margin-top: 276px;
+    margin-left: 685px;
+}
+   
+.skill2 {
+     color: #e97700;
+    margin-top: 36px;
+    font-size: 19px;
+    font-family: 'Bahnschrift', sans-serif;
+}  
+.text3 {
+    margin-top: 16px;
+}
+    
+.img5 {
+    margin-left: 985px;
+    position: absolute;
+    top: 0px;
+    margin-top: 265px;
+}
+.text4 {
+    margin-top: 16px;
+    
+}
+.skill3 {
+    color: #e97700;
+    margin-top: 38px;
+    font-size: 19px;
+    font-family: 'Bahnschrift', sans-serif;
+}
+
+.img6 {
+    position: absolute;
+    top: 0px;
+    margin-left: 1285px;
+     margin-top: 265px;  
+}
+
+.skill4 {
+    color: #e97700;
+    margin-top: 38px;
+    font-size: 19px;
+    font-family: 'Bahnschrift', sans-serif;
+}
+.text5 {
+    margin-top: 16px;
+}
