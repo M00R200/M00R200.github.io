@@ -17,6 +17,7 @@ nav {
     width: 100%;
     height: 60px;
     background: #344051;
+    position: fixed;
     
    
 }
@@ -27,10 +28,42 @@ nav {
     line-height: 60px;
     float: left;
     font-family:  'Franklin Gothic', sans-serif;
+   
+    
+   
 }
 
-.menu {
+.menu a {
     float: left; 
+}
+
+
+
+@media screen and (max-width: 1010px) {
+    
+    .menu a {
+        display: none;
+    }
+    .menu a.icon {
+        float: right;
+        display: block;
+        font-size: 25px;
+    }
+    nav {
+        width: 100%;
+    }
+    .menu {
+        position: relative;
+        left: -200px;
+    }
+    header .menu {
+        height: 340px; 
+    }
+    menu a.icon {
+        position: absolute;
+        right: -200px;
+    }
+   
 }
    
     
@@ -39,15 +72,31 @@ nav {
 
 
 .menu a {
-    float: left ;
+    float: right;
     line-height: 60px;
-    color: #fff;
     margin-right: 40px;
     font-size: 14px;
     text-transform: uppercase;
-     font-family:  'Franklin Gothic', sans-serif;
+    font-family:  'Franklin Gothic', sans-serif;
+    top: 0px;
+    margin-top: -59px;
+     
+}
+
+a:visited {
+    color: white;
     
+}
+
+.menu a:hover {
+    color: #e88604;
     
+}
+
+
+
+.menu .icon {
+    display: none;
 }
 
 .icon {
@@ -55,9 +104,15 @@ nav {
     color: #fff;
 }
 
+
+
+ 
+    
+
+
 .main {
     width: 100%;
-    height: calc(100% - 60px);
+    height: 100%;
     background: url(../img/boy.png) 59% 50%  no-repeat ,url(../img/Brackets.lnk.jpg) right/cover no-repeat;
 }
 
@@ -172,6 +227,7 @@ nav {
 
 .img2 {
     margin-top: 31px;
+    text-align: center;
 }
 
 .img3 {
@@ -244,3 +300,398 @@ nav {
 .text5 {
     margin-top: 16px;
 }
+
+.case {
+    text-align: center;
+    font-size: 28px;
+   padding-top: 600px;
+    position: relative;
+     
+}
+
+
+.line2 {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.case0 {
+   text-align: center;
+    margin-top: 10px;
+ 
+}
+
+.case3 {
+    margin-top: 43px;
+}
+
+.site {
+    text-align: left;
+    margin-left: 387px;
+    margin-top: -205px;
+    font-size: 19px;
+   line-height: normal;
+}
+
+.text7 {
+text-align: left;
+    margin-left: 725px;
+    margin-top: -110px;
+    font-size: 19px;
+}
+
+.green {
+   height: 28px;
+    width: 180px;
+   text-align: center;
+    font-size: 20px;
+    border-radius: 4px;
+    padding: 0px 16px;
+    border: 0.3px solid #63b5ae ;
+    
+    margin-top: 26px;
+    background-color: #63b5ae;
+     background-size: cover;
+    fill: #63b5ae;  
+     margin-left: 387px;             
+}
+
+
+.price {
+    text-align: center;
+    margin-top: 201px;
+    font-size: 35px;
+}
+
+.table30 {
+   
+    margin-left: 50px;
+}
+
+.payment {
+    text-align: left;
+    margin-top: 60px;
+    font-size: 25px;
+    margin-left: 23%;
+}
+
+.user1 {
+    font-size: 15px;
+    color: #909090;
+     border-radius: none;
+    background-color: #eeeeee;
+    width: 891px;
+    height: 57px;
+    margin-top: 22px;
+    padding-left: 24px;
+    
+    
+}
+
+.sidius {
+    margin-top: 50px;
+}
+.user2 {
+    font-size: 15px;
+    color: #909090;
+     border-radius: none;
+    background-color: #eeeeee;
+    width: 891px;
+    height: 57px;
+    margin-top: 22px;
+    padding-left: 24px;
+}
+
+.side {
+    margin-top: 50px;
+}
+.user3 {
+     font-size: 15px;
+    color: #909090;
+     border-radius: none;
+    background-color: #eeeeee;
+    width: 891px;
+    height: 57px;
+    margin-top: 22px;
+    padding-left: 24px;
+}
+.line3 {
+    margin-top: 37px;
+    width: 891px;
+}
+
+.time {
+ margin-top: 10px;
+      
+    
+}
+.many {
+    margin-top: 10px;
+    
+}
+
+.computer {
+    margin-top: 155px;
+    background-size: cover 100% 100%;
+    background: url(../img/%D1%84%D0%BE%D0%BDnhb.png) 100%;
+    
+    
+}
+
+
+
+.item {
+  text-align: center;
+    margin-top: -405px;
+    font-size: 28px;
+    
+}
+
+
+.line4 {
+text-align: center;
+    margin-top: 32px;
+    margin-left: 920px;
+    
+}
+
+.smail {
+    margin-top: 85px;
+    margin-left: 496px;
+    
+}
+
+.ridlle {
+    margin-top: 32px;
+    margin-left: 490px;
+    font-size: 34px;
+    font-weight: bold;
+}
+ 
+.br {
+ margin-top: 30px;
+     margin-left: 422px;
+    font-size: 15px;
+}
+.hours {
+    margin-left: 783px;
+    margin-top: -156px;
+}
+
+.now {
+    margin-left: 775px;
+     margin-top: -106px;
+    font-size: 34px;
+     font-weight: bold;
+}
+.now1 {
+    margin-top: 30px;
+     margin-left: 755px;
+    font-size: 15px;
+}
+
+.light {
+    margin-left: 1078px;
+     margin-top: -156px;
+}
+.project {
+     margin-left: 1076px;
+     margin-top: -91px;
+    font-size: 34px;
+     font-weight: bold;
+}
+.project2 {
+     margin-top: 15px;
+     margin-left: 1015px;
+    font-size: 15px;
+    
+}
+.gold {
+    margin-top: -156px;
+      margin-left: 1365px;    
+}
+
+.luut {
+      margin-left: 1375px; 
+     margin-top: -91px;
+    font-size: 34px;
+     font-weight: bold;
+}
+
+.luut2 {
+   margin-top: 15px; 
+    margin-left: 1324px;
+     font-size: 15px;
+}
+
+.dos {
+    text-align: center;
+    font-size: 34px;
+    margin-top: 207px;
+}
+
+.line5 {
+    margin: 34px;
+    text-align: center;
+    margin-left: 907px;
+}
+
+.direct {
+    margin-top: 36px;
+    margin-left: 900px;
+}
+
+.text8 {
+    text-align: center;
+    margin-top: 37px;
+    
+}
+
+.text9 {
+    margin-top: 38px;
+    text-align: center;
+}
+
+
+
+
+.contact {
+    text-align: center;
+    margin-top: -690px;
+    color: #ffffff;
+    font-size: 34px;
+        
+}
+.line6 {
+    text-align: center;
+    margin-top: 32px;
+    margin-left: 48%;
+}
+.text9 {
+ margin-top: 35px;
+    text-align: center;
+    color:  #ffffff;
+}
+
+.geo {
+margin-top: 45px;
+    margin-left: 710px;
+}
+
+
+.text10 {
+    margin-top: 16px;
+    color:  #ffffff;
+    margin-right: 466px;
+    text-align: center;
+}
+
+.coin {
+    margin-top: -85px;
+    margin-left: 941px;
+}
+
+.mail {
+  margin-left: 890px;
+    margin-top: -56px;
+     color:  #ffffff;
+    
+}
+
+.smart {
+    margin-left: 1185px;
+    margin-top: -70px;
+}
+
+.telephone {
+     color:  #ffffff;
+    margin-left: 1135px;
+    margin-top:  -41px;
+}
+
+.text11 {
+    color: #ffffff;
+    text-align: center;
+    margin-top: 46px;
+    font-size: 18px;
+}
+.email {
+    margin-left: 29px;
+   margin-top: 46px;
+    font-size: 15px;
+    width: 352px;
+    height: 34px;
+    background-color: #d3d6dd;
+    padding-left: 14px;
+}
+
+.name {
+    margin-left: 581px;
+    margin-top: 46px;
+    font-size: 15px;
+    width: 352px;
+    height: 34px;
+    background-color: #d3d6dd;
+    padding-left: 14px;
+}
+
+.sms {
+    margin-left: 581px;
+    margin-top: 14px;
+     width: 736px;
+    height: 94px;
+    padding-left: 14px;
+    background-color: #d3d6dd;
+    padding-top: 13px;
+    font-size: 15px; 
+    max-height: 94px;
+    max-width:736px;
+    min-height: 94px;
+    min-width: 736px;
+}
+
+.riden input {
+    text-align: center;
+    border-radius: 3px;
+     width: 125px;
+    height: 46px;
+    margin-top: 28px;
+    margin-left: 897px;
+    border: 2px solid #f4f4f5;
+    caret-color: #d3d6dd; 
+    
+}
+
+.lockation {
+   margin-top: 150px;
+    
+}
+
+.d1 {
+    width: 1920px;
+    height: 96px;
+    background: #354051;
+}
+
+.end {
+    color:  #d3d6dd;
+    font-size: 18px;
+    text-align: center;
+    margin-top: -51px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
